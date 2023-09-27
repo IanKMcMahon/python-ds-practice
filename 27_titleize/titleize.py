@@ -10,3 +10,10 @@ def titleize(phrase):
     phrase = phrase.lower()
 
     return [word.capitalize() for word in phrase]
+
+    """
+    OR...
+
+    return phrase.title()
+    
+    """
